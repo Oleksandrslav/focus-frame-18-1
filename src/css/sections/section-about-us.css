@@ -1,6 +1,9 @@
 .hide {
     display: none;
 }
+.accent-color {
+color: #bea69e;
+}
 
 .about-us-container {
     padding: 80px 20px;
@@ -101,7 +104,6 @@
         max-width: 280px;
     }
 }
-
 @media screen and (min-width: 1280px) {
     .about-us-column {
         max-width: 268px;
