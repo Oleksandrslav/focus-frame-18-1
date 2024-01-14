@@ -11,6 +11,10 @@
     background-color: #121212;
 }
 
+.accent-color {
+    color: #bea69e;
+}
+
 .about-us-container {
 
     max-width: 375px;
