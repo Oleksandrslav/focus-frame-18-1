@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="/src/css/section-sign-up.css" />
+  </head>
+  <body>
+
+<section class="container container-signup">
+  <div class="container-section-signup">
+    <p class="signup-header-sign">Sign <a class="signup-header-up">Up</a></p>
+    <p class="signup-supporting-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form class="signup-form" name="signup-form">
+      <div class="signup-field">
+        <input
+          class="signup-input signup-name"
+          type="text"
+          id="user-name"
+          name="user-name"
+          placeholder="Enter your name"
+        />
+      </div>
+
+      <div class="signup-field">
+        <input
+          class="signup-input signup-email"
+          type="text"
+          id="user_email"
+          name="user_email"
+          placeholder="Enter your email"
+        />
+      </div>
+
+      <div class="signup-message">
+        <textarea
+          class="signup-input signup-message-text"
+          name="user-comment"
+          id="user-comment"
+          rows="7"
+          placeholder="Message"
+        ></textarea>
+      </div>
+
+      <button class="signup-send-button" type="submit">Send</button>
+
+      <p class="signup-text">
+        By clicking on “Send” button, you agree to our
+        <a class="signup-privacy" href="">Privacy Policy</a>, and allow Promodo
+        to use this information for marketing purposes.
+      </p>
+    </form>
+  </div>
+  <div class="container-section-block">
+    <div class="container-section-rectangle-5">
+      <img
+        class="container-img-rectangle-5"
+        srcset="
+          /src/img/sign-up-img/rectangle5.png    1x,
+          /src/img/sign-up-img/rectangle5@2x.png
+        "
+        src="/src/img/sign-up-img/rectangle5.png"
+        alt="Video Entry"
+      />
+    </div>
+    <div class="container-section-rectangle-4">
+      <img
+        class="container-section-img-rectangle-4"
+        srcset="
+          /src/img/sign-up-img/rectangle4.png    1x,
+          /src/img/sign-up-img/rectangle4@2x.png
+        "
+        src="/src/img/sign-up-img/rectangle4.png"
+        alt="Isabella Mendes"
+      />
+    </div>
+  </div>
+</section>
+</body>
+</html>
