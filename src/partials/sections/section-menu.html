@@ -3,7 +3,7 @@
 <div class="mobile-menu">
   <button class="mobile-btn" type="button">
     <svg class="mobile-icon" width="32" height="32">
-      <use href="../../img/icons.svg#icon-x"></use>
+      <use href="../img/icons.svg#icon-x"></use>
     </svg>
   </button>
   <ul class="mobile-list">
@@ -23,7 +23,27 @@
       <a class="mobile-link" href="">Contacts</a>
     </li>
   </ul>
-  <div class="mobile-image">
-    <img />
-  </div>
+  <picture>
+    <source
+      media="(min-width: 768px)"
+      srcset="
+        ../img/menu-img/tablet/camera.webp    1x,
+        ../img/menu-img/tablet/camera@2x.webp 2x
+      "
+    />
+    <source
+      media="(max-width: 767px)"
+      srcset="
+        ../img/menu-img/mobile/camera.webp   1x,
+        ./img/menu-img/mobile/camera@2x.webp 2x
+      "
+    />
+
+    <img
+      class="about-us-img"
+      src="../img/menu-img/mobile/camera.webp"
+      alt="mobile-camera"
+      loading="lazy"
+    />
+  </picture>
 </div>
