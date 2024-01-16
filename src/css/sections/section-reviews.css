@@ -1,11 +1,19 @@
 /*Revievs*/
 
+.reviews {
+  max-width: 1440px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 75px 0;
+  background: #121212;
+}
+
 .reviews-clas {
   max-width: 320px;
   padding: 0 20px;
   margin-right: auto;
   margin-left: auto;
-  background: #121212;
+
 }
 
 @media screen and (min-width: 768px) {
