@@ -1,8 +1,6 @@
 /*Revievs*/
 
 .reviews {
-  max-width: 1440px;
-  min-height: 300px;
   margin: 0 auto;
   padding: 75px 0;
   background: #121212;
@@ -11,9 +9,7 @@
 .reviews-clas {
   max-width: 320px;
   padding: 0 20px;
-  margin-right: auto;
-  margin-left: auto;
-
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -37,7 +33,7 @@
   }
 }
 
-.reviews-h {
+.reviews-title {
   margin-bottom: 40px;
   font-family: DM Sans;
   font-size: 28px;
@@ -49,7 +45,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .reviews-h {
+  .reviews-title {
     margin-bottom: 50px;
     font-size: 48px;
     line-height: 1.12;
@@ -57,7 +53,7 @@
   }
 }
 
-.reviews-ul {
+.reviews-list {
   display: flex;
   width: 100%;
   max-width: 335px;
@@ -65,14 +61,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .reviews-ul {
+  .reviews-list {
     max-width: 640px;
     flex-shrink: 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .reviews-ul {
+  .reviews-list {
     display: flex;
     max-width: 1240px;
     gap: 20px;
@@ -80,13 +76,13 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .reviews-ul {
+  .reviews-list {
 
     max-width: 1240px;
   }
 }
 
-.reviews-li {
+.reviews-list-item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -95,36 +91,39 @@
   padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
+}
 
+@media only screen and (max-width: 1279.98px) {
+  .second {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .reviews-li {
+  .reviews-list-item {
     max-width: 640px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .reviews-li {
+  .reviews-list-item {
     max-width: 530px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .reviews-li {
+  .reviews-list-item {
     max-width: 610px;
   }
 }
 
-.reviews-img {
+.reviews-wrapper {
   display: inline-flex;
-
   align-items: center;
   gap: 10px;
-
 }
 
-.image-reviews {
+.reviews-image {
   gap: 10px;
   border-radius: 100px;
   background: var(--avatar-user-square-ethan-valdez-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
@@ -194,9 +193,7 @@
   }
 }
 
-
-
-.pr-reviews {
+.reviews-paragraph {
   max-width: 295px;
   padding-top: 20px;
   font-family: DM Sans;
@@ -221,34 +218,5 @@
 @media only screen and (min-width: 1280px) {
   .pr-reviews {
     max-width: 490px;
-  }
-}
-
-.reviews-lili {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 335px;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.20);
-}
-
-@media only screen and (max-width: 1279.98px) {
-  .reviews-lili {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .reviews-lili {
-    max-width: 530px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .reviews-lili {
-    max-width: 610px;
   }
 }
