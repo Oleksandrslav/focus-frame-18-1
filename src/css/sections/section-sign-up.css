@@ -19,29 +19,20 @@ body {
 }
 
 .container-section-signup {
-  margin-bottom: 80px;
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .container-section-signup {
     max-width: 480px;
-    margin-bottom: 100px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .container-section-signup {
-    margin-bottom: 150px;
-  }
-}
 .signup-header-sign {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 114%; /* 114.286% */
+  line-height: 1.14; /* 114.286% */
   letter-spacing: -1.12px;
   margin-bottom: 20px;
 }
@@ -49,19 +40,15 @@ body {
 @media only screen and (min-width: 768px) {
   .signup-header-sign {
     color: #fff;
-    font-family: DM Sans;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 112.5%; /* 112.5% */
+    line-height: 1.125; /* 112.5% */
     letter-spacing: -1.92px;
   }
 }
 .signup-header-up {
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1.12px;
@@ -70,9 +57,7 @@ body {
 @media only screen and (min-width: 768px) {
   .signup-header-up {
     color: #bea69e;
-    font-family: DM Sans;
     font-size: 48px;
-    font-style: normal;
     font-weight: 500;
     line-height: 54px;
     letter-spacing: -1.92px;
@@ -80,11 +65,9 @@ body {
 }
 .signup-supporting-text {
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 129%; /* 128.571% */
+  line-height: 1.29; /* 128.571% */
   letter-spacing: -0.28px;
   margin-bottom: 41px;
   margin-right: 40px;
@@ -93,23 +76,15 @@ body {
 @media only screen and (min-width: 768px) {
   .signup-supporting-text {
     color: #fff;
-    font-family: DM Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 125%; /* 125% */
+    line-height: 1.25; /* 125% */
     letter-spacing: -0.32px;
     width: 100%;
     margin-right: 0;
   }
 }
-.signup-form {
-}
 
-@media only screen and (min-width: 768px) {
-  .signup-form {
-  }
-}
 .signup-field {
   margin-bottom: 8px;
 }
@@ -125,11 +100,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   background-color: #121212;
   color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 129%; /* 128.571% */
+  line-height: 1.29; /* 128.571% */
   opacity: 0.7;
   outline: none;
 }
@@ -142,11 +115,9 @@ body {
 @media only screen and (min-width: 768px) {
   .signup-input {
     color: #fff;
-    font-family: DM Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 125%; /* 125% */
+    line-height: 1.25; /* 125% */
   }
 }
 
@@ -167,7 +138,7 @@ body {
 }
 
 .signup-message-text {
-  padding: 14px 0 80px 18px;
+  padding: 14px 18px;
   height: 112px;
   resize: none;
   overflow: auto;
@@ -175,7 +146,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .signup-message-text {
-    padding: 20px 0 80px 18px;
+    padding: 20px 18px;
     height: 119px;
   }
 }
@@ -186,7 +157,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  background: var(--white, #fff);
+  background: #fff;
   border: none;
   margin-bottom: 20px;
   width: 100%;
@@ -201,23 +172,19 @@ body {
 @media only screen and (min-width: 768px) {
   .signup-send-button {
     color: var(--black, #121212);
-    font-family: DM Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 156%; /* 155.556% */
+    line-height: 1.56; /* 155.556% */
     text-transform: uppercase;
     display: inline-flex;
-    padding: 16px 216px;
+    padding: 16px;
   }
 }
 .signup-text {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 133%; /* 133.333% */
+  line-height: 1.33; /* 133.333% */
   max-width: 100%;
 }
 
@@ -225,7 +192,7 @@ body {
   .signup-text,
   .signup-privacy {
     font-size: 14px;
-    line-height: 129%; /* 128.571% */
+    line-height: 1.29; /* 128.571% */
   }
 }
 
