@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/focus-frame-18-1/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/focus-frame-18-1/assets/index-176506d1.css">
+    <link rel="stylesheet" href="/focus-frame-18-1/assets/index-8a1d8cff.css">
   </head>
   <body>
     <header class="header">
@@ -302,7 +302,7 @@
 </section>
       <section class="container container-signup">
   <div class="container-section-signup">
-    <p class="signup-header-sign">Sign <a class="signup-header-up">Up</a></p>
+    <h2 class="signup-header-sign">Sign <a class="signup-header-up">Up</a></h2>
     <p class="signup-supporting-text">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
@@ -310,7 +310,8 @@
     <form class="signup-form" name="signup-form">
       <div class="signup-field">
         <input
-          class="signup-input signup-name"
+          class="signup-input signup-name active"
+          pattern="[A-Za-z]{25}"
           type="text"
           id="user-name"
           name="user-name"
@@ -321,7 +322,8 @@
       <div class="signup-field">
         <input
           class="signup-input signup-email"
-          type="text"
+          pattern=".+@gmail\.com"
+          type="email"
           id="user_email"
           name="user_email"
           placeholder="Enter your email"
@@ -351,22 +353,16 @@
     <div class="container-section-rectangle-5">
       <img
         class="container-img-rectangle-5"
-        srcset="
-          /src/img/sign-up-img/rectangle5.png    1x,
-          /src/img/sign-up-img/rectangle5@2x.png
-        "
-        src="/src/img/sign-up-img/rectangle5.png"
+        srcset="/focus-frame-18-1/assets/rectangle5-ec6b7748.png 1x, /focus-frame-18-1/assets/rectangle5@2x-27cfe2c8.png "
+        src="/focus-frame-18-1/assets/rectangle5-ec6b7748.png"
         alt="Video Entry"
       />
     </div>
     <div class="container-section-rectangle-4">
       <img
         class="container-section-img-rectangle-4"
-        srcset="
-          /src/img/sign-up-img/rectangle4.png    1x,
-          /src/img/sign-up-img/rectangle4@2x.png
-        "
-        src="/src/img/sign-up-img/rectangle4.png"
+        srcset="/focus-frame-18-1/assets/rectangle4-db614954.png 1x, /focus-frame-18-1/assets/rectangle4@2x-296b96ee.png "
+        src="/focus-frame-18-1/assets/rectangle4-db614954.png"
         alt="Isabella Mendes"
       />
     </div>
