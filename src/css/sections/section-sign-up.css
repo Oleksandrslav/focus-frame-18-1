@@ -134,12 +134,10 @@ body {
   outline: none;
 }
 
-.signup-input:focus{
-    opacity: 1;
+.signup-input:focus {
+  opacity: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
-
-
 
 @media only screen and (min-width: 768px) {
   .signup-input {
@@ -172,6 +170,7 @@ body {
   padding: 14px 0 80px 18px;
   height: 112px;
   resize: none;
+  overflow: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -194,7 +193,7 @@ body {
 }
 
 .signup-send-button:hover,
-.signup-send-button:focus{
+.signup-send-button:focus {
   background: #1d1d1d;
   color: var(--brown, #bea69e);
 }
