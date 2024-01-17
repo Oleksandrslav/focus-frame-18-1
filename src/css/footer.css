@@ -6,29 +6,54 @@ body {
 .footer {
     display: flex;
     flex-direction: column;
-    width: 1440px;
-    height: 331px;
+    /* width: 1440px;
+    height: 331px; */
     background: var(--black, #121212);
     margin: 0;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+     background-image: url(../img/bg-img/bg-img-desctop.png)
 }
 
-.wrapper {
+
+/* .wrapper {
     display: flex;
+    justify-content: center;
     height: 170px;
     margin: 50px 0 0 0;
+} */
+
+@media only screen and (min-width: 1280px) {
+.wrapper {
+    justify-content: space-around;
+  }
 }
 
+@media only screen and (min-width: 1440px) {
+.wrapper {
+    display: flex;
+        justify-content: center;
+        height: 170px;
+        margin: 50px 0 0 0;
+  }
+}
+
+
 .footer--container-logo {
-    padding: 0 0 0 100px;
+    /* padding: 0 0 0 100px; */
     width: 143px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .footer--logo {
-    color: white;
+    fill: white;
     font-weight: 700;
     margin: 0;
     width: 123px;
+    
 }
 
 .footer--container-loc {
@@ -126,7 +151,13 @@ body {
 
 .wrapper--copyright {
     display: flex;
+    justify-content: flex-end;
     margin: 50px 0 0 0;
+}
+@media only screen and (min-width: 768px) {
+.wrapper--copyright  {
+    margin: 50px 0 0 0;
+  }
 }
 
 .footer--privacy-title {
@@ -169,6 +200,7 @@ body {
     .wrapper {
         display: flex;
         flex-direction: column;
+       
         height: 495px;
         margin: 0 0 0 0;
     }
@@ -306,6 +338,7 @@ body {
     }
 }
 
+
 @media screen and (max-width: 1280px) {
     .footer {
         display: flex;
@@ -325,7 +358,7 @@ body {
     }
 
     .footer--container-logo {
-        padding: 50px 0 0 100px;
+        padding: 50px 0 0 0;
     }
 
     .footer--container-loc {
@@ -333,7 +366,7 @@ body {
     }
 
     .footer--container-content {
-        margin: 50px 0 0 284px;
+        margin: 50px 0 0 0;
     }
 
     .social--container {
@@ -354,7 +387,7 @@ body {
     }
 
     .footer--container-form {
-        margin: 50px 0 0 135px;
+        margin: 50px 150px 0 0;
     }
 
     .btn--go {
@@ -373,7 +406,7 @@ body {
     }
 
     .footer--container-copyright {
-        margin: 0 0 0 773px;
+        margin: 0 0 0 750px;
     }
 
     .footer--privacy-title {
