@@ -5,14 +5,14 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .mentor {
+  .mentor .container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .mentor {
+  .mentor .container {
     padding-top: 75px;
     padding-bottom: 75px;
   }

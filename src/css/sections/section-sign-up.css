@@ -1,8 +1,18 @@
-.container-signup {}
+.container-signup {
+  padding: 40px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-signup {
+    max-width: 480px;
+    padding: 50px 0;
+  }
+}
 
 @media only screen and (min-width: 1280px) {
   .container-signup {
     display: flex;
+    padding: 75px 0;
     gap: 60px;
   }
 }
@@ -14,21 +24,17 @@
 }
 
 .container-section-signup {
-  padding: 40px 0;
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .container-section-signup {
     max-width: 480px;
-    margin: 50px 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .container-section-signup {
-    margin: 75px 0;
-  }
+  .container-section-signup {}
 }
 
 .signup-header-sign {

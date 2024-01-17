@@ -2,34 +2,31 @@
 
 .reviews {
   margin: 0 auto;
-  padding: 75px 0;
-  background: #121212;
 }
 
 .reviews-clas {
   max-width: 320px;
-  padding: 0 20px;
+  padding: 40px 0 80px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .reviews-clas {
     max-width: 768px;
-    padding: 0 32px;
+    padding: 50px 0 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .reviews-clas {
     max-width: 1280px;
-    padding: 0 100px;
+    padding: 75px 0 150px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .reviews-clas {
     max-width: 1440px;
-    padding: 0 100px;
   }
 }
 
