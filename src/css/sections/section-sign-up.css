@@ -14,20 +14,20 @@
 }
 
 .container-section-signup {
-  margin-bottom: 80px;
+  padding: 40px 0;
   width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .container-section-signup {
     max-width: 480px;
-    margin-bottom: 100px;
+    margin: 50px 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container-section-signup {
-    margin-bottom: 150px;
+    margin: 75px 0;
   }
 }
 
@@ -138,8 +138,8 @@
   outline: none;
 }
 
-.signup-input:focus{
-    opacity: 1;
+.signup-input:focus {
+  opacity: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -200,7 +200,7 @@
 }
 
 .signup-send-button:hover,
-.signup-send-button:focus{
+.signup-send-button:focus {
   background: #1d1d1d;
   color: var(--brown, #bea69e);
 }

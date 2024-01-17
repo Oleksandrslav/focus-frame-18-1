@@ -84,7 +84,7 @@
 
 .reviews-list-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   max-width: 335px;
@@ -194,7 +194,7 @@
 }
 
 .reviews-paragraph {
-  max-width: 295px;
+  max-width: 100%;
   padding-top: 20px;
   font-family: DM Sans;
   font-size: 14px;
