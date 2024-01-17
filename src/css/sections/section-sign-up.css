@@ -143,8 +143,6 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-
-
 @media only screen and (min-width: 768px) {
   .signup-input {
     color: #fff;
@@ -178,6 +176,7 @@
   padding: 14px 0 80px 18px;
   height: 112px;
   resize: none;
+  overflow: auto;
 }
 
 @media only screen and (min-width: 768px) {
