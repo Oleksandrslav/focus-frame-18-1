@@ -1,6 +1,6 @@
 <section class="container container-signup">
   <div class="container-section-signup">
-    <p class="signup-header-sign">Sign <a class="signup-header-up">Up</a></p>
+    <h2 class="signup-header-sign">Sign <a class="signup-header-up">Up</a></h2>
     <p class="signup-supporting-text">
       Please use the form below to contact us. Enter your name, email, and
       message and we'll get back to you shortly.
@@ -8,7 +8,8 @@
     <form class="signup-form" name="signup-form">
       <div class="signup-field">
         <input
-          class="signup-input signup-name"
+          class="signup-input signup-name active"
+          pattern="[A-Za-z]{25}"
           type="text"
           id="user-name"
           name="user-name"
@@ -19,7 +20,8 @@
       <div class="signup-field">
         <input
           class="signup-input signup-email"
-          type="text"
+          pattern=".+@gmail\.com"
+          type="email"
           id="user_email"
           name="user_email"
           placeholder="Enter your email"
@@ -50,10 +52,10 @@
       <img
         class="container-img-rectangle-5"
         srcset="
-          /src/img/sign-up-img/rectangle5.png    1x,
-          /src/img/sign-up-img/rectangle5@2x.png
+          /img/sign-up-img/rectangle5.png    1x,
+          /img/sign-up-img/rectangle5@2x.png
         "
-        src="/src/img/sign-up-img/rectangle5.png"
+        src="/img/sign-up-img/rectangle5.png"
         alt="Video Entry"
       />
     </div>
@@ -61,10 +63,10 @@
       <img
         class="container-section-img-rectangle-4"
         srcset="
-          /src/img/sign-up-img/rectangle4.png    1x,
-          /src/img/sign-up-img/rectangle4@2x.png
+          /img/sign-up-img/rectangle4.png    1x,
+          /img/sign-up-img/rectangle4@2x.png
         "
-        src="/src/img/sign-up-img/rectangle4.png"
+        src="/img/sign-up-img/rectangle4.png"
         alt="Isabella Mendes"
       />
     </div>
