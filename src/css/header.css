@@ -1,6 +1,7 @@
 /* Common styles */
 .header {
     position: absolute;
+    width: 100%;
     top: 20px;
     left: 20px;
 }

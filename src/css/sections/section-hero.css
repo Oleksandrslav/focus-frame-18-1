@@ -4,7 +4,27 @@
   position: relative;
   margin: 0 auto;
   padding: 90px 20px 80px;
-  z-index: -3;
+}
+
+hero {
+  background-image: url(/img/bg-img/bg-img-desctop.png);
+  background-repeat:
+    no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 120px 32px 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding: 160px 100px 150px;
+  }
 }
 
 .hero-bg-img {
@@ -40,14 +60,34 @@
 }
 
 .hero-container {
-  /* position: absolute;
-  left: 20;
-  top: 90; */
+  max-width: 335px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
+  padding: 40px 20px 0;
   flex-direction: column;
-  padding-top: 40px;
   border-radius: 30px;
   background: #1d1d1d;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    max-width: 704px;
+    padding: 64px 32px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    max-width: 1080px;
+    padding: 80px 50px 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    max-width: 1240px
+  }
 }
 
 .hero-title {
@@ -173,19 +213,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
-  .hero-container {
-    padding-top: 64px;
-  }
-
   .hero-title {
     font-size: 60px;
     line-height: 1.07;
-    width: 517px;
+    max-width: 517px;
     margin-left: 0;
     margin-right: auto;
   }
@@ -196,7 +227,7 @@
   }
 
   .hero-text {
-    width: 418px;
+    max-width: 418px;
   }
 
   .hero-list {
@@ -204,7 +235,7 @@
   }
 
   .hero-list-text {
-    width: 82px;
+    max-width: 82px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -242,10 +273,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
-  }
 
   .hero-container {
     position: relative;
@@ -256,7 +283,7 @@
   .hero-title {
     font-size: 64px;
     line-height: 1.06;
-    width: 563px;
+    max-width: 563px;
     margin-left: 0;
     margin-right: auto;
   }
@@ -278,11 +305,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 100px;
-  }
-
   .hero-img {
     position: absolute;
     bottom: 0;
