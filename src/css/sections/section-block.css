@@ -7,16 +7,20 @@ body {
 *::after {
   box-sizing: border-box;
 }
-
+.marquee-sctn {
+  padding-top: 0;
+}
 .marquee {
+  padding-top: 24px;
+  padding-bottom: 24px;
   overflow: hidden;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
   font-size: 28px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   background-color: #121212;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 @media screen and (min-width: 768px) {
   .marquee {
@@ -31,6 +35,20 @@ body {
   }
 }
 
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+}
+/*Desktop*/
+@media screen and (min-width: 1158px) {
+  .marquee {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
 .marquee-inner {
   display: flex;
 }
