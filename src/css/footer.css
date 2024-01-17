@@ -1,4 +1,10 @@
 .footer {
+  background-image: url(/img/bg-img/bg-img-desctop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .container {
 }
@@ -75,7 +81,7 @@
   justify-content: space-between;
 }
 .subcribe-field {
-    width: 100%;
+  width: 100%;
 }
 .subcribe-input {
   width: 100%;
