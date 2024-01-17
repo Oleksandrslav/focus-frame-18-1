@@ -6,7 +6,7 @@
   left: 0;
   flex-shrink: 0;
   width: 218px;
-  height: 812px;
+
   background-color: #bea69e;
   flex-direction: column;
   padding: 72px 24px 40px 16px;
@@ -16,7 +16,6 @@
 @media screen and (min-width: 768px) {
   .mobile-menu {
     width: 480px;
-    height: 1024px;
   }
 }
 
@@ -31,7 +30,7 @@
   justify-content: center;
   position: absolute;
   width: 32px;
-  height: 32px;
+
   padding: 0;
   cursor: pointer;
 }
