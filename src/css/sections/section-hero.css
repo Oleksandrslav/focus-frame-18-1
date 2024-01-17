@@ -244,7 +244,7 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0 100px;
+    padding: 0 50px;
   }
 
   .hero-container {
@@ -280,7 +280,7 @@
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding: 0 100px;
+    padding: 0 50px;
   }
 
   .hero-img {
