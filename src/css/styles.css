@@ -16,6 +16,12 @@
 @import url('./sections/section-reviews.css');
 @import url('./sections/section-sign-up.css');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   font-family: DM sans, sans-serif;
   font-size: 16px;
@@ -28,17 +34,10 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-
-  overflow-x: hidden;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.section {
+  overflow-x: hidden;
 }
 
 .container {

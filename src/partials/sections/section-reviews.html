@@ -1,33 +1,25 @@
 <!-- Reviws -->
-<section class="reviews">
-  <div class="reviews-clas container">
+<section class="section reviews">
+    <div class="reviews-clas container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
-      <li class="reviews-list-item">
-        <div class="reviews-wrapper">
-          <picture>
-            <source
-              srcset="
-                /img/reviews-img/boy.webp    1x,
-                /img/reviews-img/boy@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              srcset="
-                /img/reviews-img/boy.png    1x,
-                /img/reviews-img/boy@2x.png 2x
-              "
-              type="image/png"
-            />
-            <img
-              class="reviews-image"
-              src="/img/reviews-img/boy.png"
-              alt="Abraham Baker"
-              width="56"
-            />s
-          </picture>
+<li class="reviews-list-item">
+<div class="reviews-wrapper">
+  <picture>
+    <source srcset="data:image/webp;base64,UklGRuwDAABXRUJQVlA4WAoAAAAQAAAANwAANwAAQUxQSBEBAAABgFXbjhXpSoiESMHB4AAcgANw0O2AdsA4QAISroRIyAevqmQevxExASgqzbDsdHfntg4Ngkq7mT+0tQsgk3lRLlpHJvPyk1Zo6VXZlZKXV39JEd09ILWA0kNSHyk9KPWB0sNSbwk98C53Xh76daP34O2FMprJ2eTh5xP1+CaHTwKfD8xgAvSe8gtYc2yA5TBpPGkzZhnXLMuWZWcW+r+XWbhn2T5ZvscsY5OlEcthwJbjG2hzdIBYBgLAnGE5iCXQA+Z4M06F0ahnaKN1uH7HeuOm7JEod6CMQ8V9ZRQqnipjUPFcGWFXlJR3vbegcM861qK8zhVsFlTVD8vYLKjfr/bEtlYQtBnWjQfuy9AIigIAVlA4ILQCAACQDQCdASo4ADgAPm0ylEckIyIhJhqsSIANiWMAz4V4pi/7h4P+F31Mf0xAjw9w7EweCYZLzzPU3sDdKNiqWzOuN5hxYo1Lo67oWOZ+O/UL16bm+viMWuByqH2jKjDvdcteqHASZ/phnw75+9rrgjEQKJc4Z4AA/vCtn//Hv//8eVf//HWcDGfwUxMaQjTxF9EDy0M/9XIlWti5s/qFMh/ZrHYliORP5Uss6DiQHKfeUPMm+WUXMC1qooO9lsDAgzJXHDVWZwb5D+8WiJvQiaGV/nEBMhvdPgGtlTbFJzQ97CrNg3HdU0dkdHaxnV2A2f96qVbZkNjluslEB7R45dN2Uj1q7ZhfnF5fqRvwjwe4t8/oh///42QwL+sg8VcVmSXNN4V/nabLQPl2ZXa0uxErqX8xrbmDFyZfiPhuG55LxSWmjNuON7h2ovHEt1iptz2qoSiDfjSjC6N4UTGt1yMogQka7+WopEoBZAYOVbh7OB1kQPgBe7NvQloPQB/EInWrKnBG1Czb1Ozu0pb6swznn4PrvsplEzTAxl0mmKoUCKcKFRjRa5qpXtGKMmdYFU9ip+aSQkAXwdadywcPR8NLfudd+01ZQFzPJW82z3vrF8hzSdH9OqpHs5F76QXvWr/JgsMnkTGSn1SN0FGyJ9kSw+aQzN6LfkAqOFiIaKNZg4WLbtaOjU3VpHE1wtpWvCPGkDAY5iN4NoB1wqF3JbsGTDQoFuQHgCMfAQ88OWLl6V/gFfkdfXNAQn39ZKAJbbziGe9yy5lob3ea/6uflSXbL788cPNVxsFhR6SE4r/Cn//tuUK5cK/DauC7s24cuj6AY3zD/C7KEsAuJbplpXfmM7lb+mMIUQW8A0fTgkxktIkFcSDa/4FgdO0NjBznJ3OXhFmEf13dwpziDu4Htb//8l1AAA== 1x, data:image/webp;base64,UklGRtIHAABXRUJQVlA4WAoAAAAQAAAAbwAAbwAAQUxQSAECAAABoFXbVh3bmhKQgIRIwMHBQXASHAQHxAkSkDAlIGF91CuBtc659y8iJgBzuy3l2sghIjLYW81xg9YulS4397p7dcLR5eFegiLuoEzJ4nUITSZucb3UZXLua0XKgtzXCU0WpV/DnbJw9QsEytLcZ3OnLH+6qTxFQfqJ9iEqjjjNIWoek5yi6DFFFVXrBFWUrY9VUbc+dIjC5yOHqHw8EEXp/TY/tBr+JkdRm+6eUxQ/b0mierjBUze63y5R/vzJi/rhF+rXfkhiYPyOFvCrJCbu39CG/kUUI8OnZkX74MVM967Ykd/RDr4JYmh4KZbkl25JB+DFVAckWxJw2VKAbksHxFi3WbNFa1K2Jl/W1GZN69aQ5gxrhvzvO6wZtIbm9GZNu6yp2ZqcrPmzWbM5a4BuSweKLRVItuyAs8UD6JZ0AMiWlJdgSXgB7SDeZjvKO2eHf4dmRcPHYMWfT+g2EF8mG/ZvQAuIr6MF+3do+hE/Bv38LyjaVfzsqBv9bwi67bizaFZwq6NedPfAD62Gx91Jq4j7s04ZTxaNMp699Lnw9KXNhecvXS7MmDUpmDPrkTFrHDqMhHk9NaDHzK6sVxwmT1yLAfP7a6XisKTnKi1g2cQVGLF04mx9x/KxzdQCVPSFczA76BlKf6rnAG19uvpdvSQHrbeYa+scL4NsNafNYW4AVlA4IKoFAADwHQCdASpwAHAAPm0ukkakIqGhLHQ9EIANiWUGKAP0AZ4B+AFzAnljdyk+R56DTQKBV/pPWQ8OfI18SlmEycDcwZg5paJqvkz+tumq9iHocpqMyoN4wnsaULhx1zJEj0DAbjuTwTeut/UpDkZk6Hy2YRwP0wiofZFwp/F05YcuaYltFt0gsnxBgBuHbk0V2uN/KQCecMjLL8DE51ZrVYh0bWVUeDoKR3w62LaIYzUV3lr25GJNkSgRSH91r7IppbljrLA/nEYjvkyMt7ho/g64Us7lxthDm2rGD2wgcEW83kLFcQdc7FYEisffxv1a/hvoFBsagR4kgAD+/TbN+ohf+uH//1uno9SbNspNLxqvxZci1g0CVqIaIblDDYs3wvzzC//f3urusXk+0+fljgb9Jn4NjshajTBUrCpr7GuHeMj7GZPfpLtlHgGppsvg/O0MnRvS11SAxJe+Tw4xbhJgFkvtbLYIHbSRqvyyoo6PeIlapoKOsDvu9rq0axCea1D11BiR4LWQnfegzfmaJrr9uL30F6EM/64f//W6ej1IU7XQIO5biWgPM23dje3bh0u3DXjf/cM9XqojS+qdfMP+ywViQK7JbwXOh47lJJL7PPCm0FljwpMaqynDv6MaNcr16Tsp3Tzu52Fpx/aJvWZIUV54RVOvCObn2HMcPpRT7cFvEa0dze/wms1c2FesODqlbFYMNAsPUOqEYejS9ac+LaDdGBqLRAAS5zINUG5WQcSVMgmu8VBhdnsR+xsx0l8kSR/OlaTtYRmvYketZ7w7cyP4Pqj0KhoVQZn7vxOzDE7sw54ThqkTpRIcJ6TQ9MzE+9CjiHYx+iiIvXpoHa9/+ry4JnfANVWVdSjhphWhjG2ijdrByoT1IM0wXVgLNssRcEEta2JcaCKehEA/EE/PbWMc+Np9+oa5uy56CqGUqH6rdj+wOnkbYwomNHxxM9DTF8Zf1+pCeh/3qONPP+GZCQTbXRXx7tvbSC6lOQssMnZC9OZATN5Zr7AGPRIR9U/K5CcJz2JSEJWw5WH8rT1D7cTp/mAgYCRSsiLwIBWf4dwQem2hr/Eft9sD3cCHxZshqatkRcm2D9tumEu1ba/dwbRmJJ6zgAzfDjJ11TiDI/bYL0oyOuAlvsKF123fv3GoJ7SK73WfS+vVGquqpGFiMkpJOZ//xIfCo0HkkFm9sBg2+MUD+pfNCW81j4OvRiCEcE+7NUnlnQoWZPQMTuTTSH/2xWm9VTWShFjfgQs3XWAeo6WMn5wD8kaFAkMgCj5IUc+TNbFbD+7y65Oqlo57/HD48A1bZpGgQzgALuZEOtId+bf5JpC4l3Z67NV7bmFfAqqxOUt2mBbp71TpaJI+81ek5Kh2xYN0MGl5XgVZ7R4UnZ6evxGTIQAX5Wg8xRprFCMKG1p1tS9Px9Ir63nkxywu2ppyHCAfu2fRcl2MorWmZQCUtKUJjSMDieU/VJDvJfaW/ohslNStAltnGrA5WHk0RT57p4rjYDWra6W/DU66JZtLvSl9QlOrl+uVV7I/ZUUBV28/8bcnL5tbDnbOdmOa4rRY/j7UyvQGxCbT1ZqKWmj7JFzSu8ZlzkC5je4UGL+aQTBkCKU5jA+abgJAO+VB6HCb5GXVfXFV/1eS1aKAs8Yuv7C7HeiL5KZPwa8Y3GcMY5unvU8KJQYG/gtwJC5YBQpvKrKknahtOSHxU8vO8ZwLiD8CPaHccB1NWviy6D+vXbu7I5mICMLVrFP7SoY4BFD0f/LwxHp0GdRtk3V/9JEHalSOYDA+2lDEP/53tT+xbWnqhQGAs5nhVmYbHC5D91jv8LCyYDjRL5gy2y7yY6+1qSN+IGmORhwCB0f3PeXGqlHIFpusiJOhzyB6IagVnEmkCo6A65WnxzT2OYyFgOijO/u5IaFsEYjSX/fscZzol/IoQAAA 2x" type="image/webp">
+    <source srcset="/focus-frame-18-1/assets/boy-829646fc.png 1x, /focus-frame-18-1/assets/boy@2x-64389e98.png 2x" type="image/png">
+    <img class="reviews-image" src="/focus-frame-18-1/assets/boy-829646fc.png" alt="Abraham Baker" width="56">
+  </picture>
 
+<div class="reviews-stud">
+<h3 class="h3-reviws">Abraham Baker</h3>
+<p class="student-reviws">Student</p>
+</div>
+</div>
+<div class="reviews-icon">
+<svg class="star-svg" width="16" height="16" fill="#BEA69E" stroke="#BEA69E">
+<use href="../../img/icons.svg#icon-star"></use>
+</svg>
           <div class="reviews-stud">
             <h3 class="h3-reviws">Abraham Baker</h3>
             <p class="student-reviws">Student</p>
@@ -92,96 +84,60 @@
           to expand my skills and discover my own style.
         </p>
       </li>
+<svg class="star-svg" width="16" height="16" fill="white" fill-opacity="0.2" stroke="#414141">
+<use href="../../img/icons.svg#icon-star"></use>
+</svg>
+</div>
+<p class="pr-reviews">
+I am very pleased that I decided to enroll in photography school. 
+The teachers turned out to be very talented and experienced professionals who share their knowledge and are dedicated to their work.
+I was able to expand my skills and discover my own style.
+</p>
+</li>
+<li class="reviews-list-item second">
+  <div class="reviews-wrapper">
+    <picture>
+      <source srcset="data:image/webp;base64,UklGRmgEAABXRUJQVlA4WAoAAAAQAAAANwAANwAAQUxQSBEBAAABgFXbjhXpSoiESMHB4AAcgANw0O2AdsA4QAISroRIyAevqmQevxExASgqzbDsdHfntg4Ngkq7mT+0tQsgk3lRLlpHJvPyk1Zo6VXZlZKXV39JEd09ILWA0kNSHyk9KPWB0sNSbwk98C53Xh76daP34O2FMprJ2eTh5xP1+CaHTwKfD8xgAvSe8gtYc2yA5TBpPGkzZhnXLMuWZWcW+r+XWbhn2T5ZvscsY5OlEcthwJbjG2hzdIBYBgLAnGE5iCXQA+Z4M06F0ahnaKN1uH7HeuOm7JEod6CMQ8V9ZRQqnipjUPFcGWFXlJR3vbegcM861qK8zhVsFlTVD8vYLKjfr/bEtlYQtBnWjQfuy9AIigIAVlA4IDADAAAQEACdASo4ADgAPm0uk0WkIqGWDAZkQAbEtABkCdxUv9Y3aC0+3H3HG8gbydgAHYdI1nRkq+Gh+Q+ijYXsBLcc7hIWPfttR5eiMuL982cu4swD/Hy/535oziuTMGVTm4DEHOpE+NYz7Zz4ri6WDXhalbv0Fwuo1b+Ppn/GcluuF49KNQfcjWL7AAD+/6ir+vqN/UoEt9diTf4WeFi31gFg78R6/aq53f8Ogk0QT3vdr3Q/r1lFxCIhhaKMs5zAJn2tJutK9fjmHIBazQFntX9sTZYpS3G5SSqfvhq57AngxppGKxGVjAC/dae/vSO571fQYYWXbPfkY+/UxguwN9tBNtynLYpv3bNdqvYvQpCyr+Pavy1g28LEcv/0o26B6rSHKMGu+N4afian///qhxE70dz7mryhY1iuRT63DLAIwHB+z2ONzkelpY3P+iSAZ3HiH6dvGs7p3bvLZSynRZZo8bo+yEATEH6PNlFV7f7SAZmbVa3BGPgBg65eFbVPD7d4+f3dfWVtnvL446P/pOI+FPn0UIjt/qcaaNosgpYLLy7KEKlmWMERMF3aeCwg+Fei+FLIId0Yj0MPvilKMFnrZvZ2fjfHAHg6nt6Wd8hjCEO1u3XbkZNVuv1+xB86jhmtPeXDvDvpOD/XZ69yyaQv6lx7xmXloCpxifUw+mIVai+oEuK5IFO9pNNkkyNfGqE0+EI5kXf/Td5fxmBq/jAkmqNq8wjoTa4stkPitH2TRNsPMRBMHg8q/FfxKDdfUh90LfIDj3EsDc1soP+IeBsyH8dBrhqYim4EaaiDPcQE2E4WDUYYvRW6VT/3rQecfMtKH/waDC06G93mcfuTldJ/hx7BHfi47klyRNd/928hguo3XDHckl45NK7ooBf3aidWPuYB3eu2orC8yLf7oP//XxtBpLvKqtmUKIOLDf76kNL7/Q16lmK7zsTAvy0Z2EW6XPMG5RGXO+Fudo9r/80wPW4PL8/2oK/5Ef3T3/MOS8k1GP0oorwHJMJWDKA4Dii5JalTvDCws1Kf4PY3ZSkP1vH8hc28Dkg02nWB9XIXM3OXdHy/9cqEmgjrw6IAAAA= 1x, data:image/webp;base64,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 2x" type="image/webp">
+      <source srcset="/focus-frame-18-1/assets/girl-d6ba060a.png 1x, /focus-frame-18-1/assets/girl@2x-1bf6b0ec.png 2x" type="image/png">
+      <img class="reviews-image" src="/focus-frame-18-1/assets/girl-d6ba060a.png" alt="Amanda Lowery" width="56">
+    </picture>
 
-      <li class="reviews-list-item second">
-        <div class="reviews-wrapper">
-          <picture>
-            <source
-              srcset="
-                /img/reviews-img/girl.webp    1x,
-                /img/reviews-img/girl@2x.webp 2x
-              "
-              type="image/webp"
-            />
-            <source
-              srcset="
-                /img/reviews-img/girl.png    1x,
-                /img/reviews-img/girl@2x.png 2x
-              "
-              type="image/png"
-            />
-            <img
-              class="reviews-image"
-              src="/img/reviews-img/girl.png"
-              alt="Amanda Lowery"
-              width="56"
-            />
-          </picture>
+    <div class="reviews-stud">
+      <h3 class="h3-reviws">Amanda Lowery</h3>
+      <p class="student-reviws">Student</p>
+    </div>
+  </div>
+  <div class="reviews-icon">
+    <svg class="star-svg" width="16" height="16" fill="#BEA69E" stroke="#BEA69E">
+      <use href="../../img/icons.svg#icon-star"></use>
+      </svg>
+      
+      
+      <svg class="star-svg" width="16" height="16" fill="#BEA69E" stroke="#BEA69E">
+      <use href="../../img/icons.svg#icon-star"></use>
+      </svg>
+      
+      
+      <svg class="star-svg" width="16" height="16" fill="#BEA69E" stroke="#BEA69E">
+      <use href="../../img/icons.svg#icon-star"></use>
+      </svg>
+      
+      <svg class="star-svg" width="16" height="16" fill="#BEA69E" stroke="#BEA69E">
+      <use href="../../img/icons.svg#icon-star"></use>
+      </svg>
+      
+      <svg class="star-svg" width="16" height="16" fill="white" fill-opacity="0.2" stroke="#414141">
+      <use href="../../img/icons.svg#icon-star"></use>
+      </svg>
 
-          <div class="reviews-stud">
-            <h3 class="h3-reviws">Amanda Lowery</h3>
-            <p class="student-reviws">Student</p>
-          </div>
-        </div>
-        <div class="reviews-icon">
-          <svg
-            class="star-svg"
-            width="16"
-            height="16"
-            fill="#BEA69E"
-            stroke="#BEA69E"
-          >
-            <use href="/img/icons.svg#icon-star"></use>
-          </svg>
-
-          <svg
-            class="star-svg"
-            width="16"
-            height="16"
-            fill="#BEA69E"
-            stroke="#BEA69E"
-          >
-            <use href="/img/icons.svg#icon-star"></use>
-          </svg>
-
-          <svg
-            class="star-svg"
-            width="16"
-            height="16"
-            fill="#BEA69E"
-            stroke="#BEA69E"
-          >
-            <use href="/img/icons.svg#icon-star"></use>
-          </svg>
-
-          <svg
-            class="star-svg"
-            width="16"
-            height="16"
-            fill="#BEA69E"
-            stroke="#BEA69E"
-          >
-            <use href="/img/icons.svg#icon-star"></use>
-          </svg>
-
-          <svg
-            class="star-svg"
-            width="16"
-            height="16"
-            fill="white"
-            fill-opacity="0.2"
-            stroke="#414141"
-          >
-            <use href="/img/icons.svg#icon-star"></use>
-          </svg>
-        </div>
-        <p class="reviews-paragraph">
-          The courses at the photography school exceeded all my expectations. I
-          gained not only technical knowledge, but also inspiration and
-          motivation to reach new heights in my creativity. Hands-on classes and
-          workshops helped me understand different styles of photography.
-        </p>
-      </li>
+  </div>
+  <p class="reviews-paragraph">
+    The courses at the photography school exceeded all my expectations. I
+    gained not only technical knowledge, but also inspiration and
+    motivation to reach new heights in my creativity. Hands-on classes and
+    workshops helped me understand different styles of photography.
+  </p>
+</li>
     </ul>
   </div>
 </section>
