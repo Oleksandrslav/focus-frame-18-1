@@ -1,3 +1,5 @@
+/* <<<<<<< Updated upstream=======<<<<<<< Updated upstream=======>>>>>>>Stashed changes
+
 /* Mobile Menu*/
 .mobile-menu {
   display: flex;
@@ -13,9 +15,10 @@
   visibility: hidden;
   pointer-events: none;
 }
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -24,26 +27,29 @@
   opacity: 1;
   pointer-events: initial;
 }
+
 .mobile-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
   width: 32px;
-
-  padding: 0;
+  <<<<<<< Updated upstream=======>>>>>>>Stashed changes padding: 0;
   cursor: pointer;
 }
+
 @media screen and (min-width: 768px) {
   .mobile-btn {
     width: 40px;
-    height: 40px;
+    <<<<<<< Updated upstream height: 40px;
+    =======>>>>>>>Stashed changes
   }
 }
 
 .mobile-icon {
   fill: #121212;
 }
+
 .mobile-list {
   margin-bottom: auto;
   text-transform: uppercase;
@@ -62,3 +68,5 @@
     margin-bottom: 28px;
   }
 }
+
+<<<<<<< Updated upstream=======>>>>>>>Stashed changes>>>>>>>Stashed changes */
