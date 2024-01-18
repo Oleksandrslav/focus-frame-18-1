@@ -1,35 +1,14 @@
 /*Revievs*/
-.reviews-clas {
-    max-width: 320px;
-    padding: 0 20px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .reviews-clas {
-      max-width: 768px;
-      padding: 0 32px;
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .reviews-clas {
-      max-width: 1280px;
-      padding: 0 100px;
-    }
-  }
-  
-  @media screen and (min-width: 1440px) {
-    .reviews-clas {
-      max-width: 1440px;
-      padding: 0 100px;
-    }
-  }
+ @media only screen and (min-width: 1280px) {
+  .reviews  {
+     padding-bottom: 150px;
+   }
+ }
 
-.reviews-h {
+  
+.reviews-title {
  margin-bottom: 40px;
-font-family: DM Sans;
+
 font-size: 28px;
 font-style: normal;
 font-weight: 500;
@@ -38,77 +17,61 @@ letter-spacing: 0.04em;
 color: #FFF;
 }
 @media only screen and (min-width: 768px) {
-    .reviews-h  {
+    .reviews-title  {
         margin-bottom: 50px;
         font-size: 48px;
         line-height: 1.12;
         letter-spacing: 0.04em;
   }
 }
-.reviews-ul {
+.reviews-list {
     display: flex;
     width: 100%;
     max-width: 335px;
     border-radius: 12px;
 }
 @media only screen and (min-width: 768px) {
-    .reviews-ul {
+    .reviews-list {
         max-width: 640px;
         flex-shrink: 0;
   }
 }
 @media only screen and (min-width: 1280px) {
-    .reviews-ul {
+    .reviews-list {
         display: flex;
         max-width: 1240px ;
     gap: 20px;
   }
 }
-@media only screen and (min-width: 1440px) {
-    .reviews-ul {
-    
-    max-width: 1240px;
-  }
-}
-.reviews-li {
+
+.reviews-list-item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 335px;
     padding: 20px;
 border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
+position: relative;
 
 }
 @media only screen and (min-width: 768px) {
-    .reviews-li {
+    .reviews-list-item {
         max-width: 640px;
   }
 }
 @media only screen and (min-width: 1280px) {
-    .reviews-li {
+    .reviews-list-item {
         max-width: 530px;
   }
 }
-@media only screen and (min-width: 1440px) {
-    .reviews-li {
-        max-width: 610px;
-  }
-}
-.reviews-img {
+
+.reviews-wrapper {
     display: inline-flex;
-   
     align-items: center;
     gap: 10px;
-      
 }
-.image-reviews {
-    gap: 10px;
-    border-radius: 100px;
-    background: var(--avatar-user-square-ethan-valdez-neutral-background, url(<path-to-image>), lightgray 50% / cover no-repeat, #E0E0E0);
-    
-}
+
 .reviews-stud {
     display: flex;
     flex-direction: column;
@@ -118,7 +81,6 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 }
 .h3-reviws {
     text-align: center;
-     font-family: DM Sans;
      font-size: 20px;
      font-style: normal;
      font-weight: 2.5;
@@ -127,9 +89,7 @@ border: 1px solid rgba(255, 255, 255, 0.20);
      color: #FFF;
  }
  .student-reviws {
-    
    text-align: center;
-     font-family: DM Sans;
      font-size: 12px;
      font-style: normal;
      font-weight: 400;
@@ -144,35 +104,20 @@ align-items: flex-start;
 gap: 4px;
 max-width: 96px;
 margin-left: 66px;
+
 color: rgba(190, 166, 158, 1);
 }
 @media only screen and (min-width: 768px) {
     .reviews-icon {
         position: absolute;
        max-width: 116px;
-       margin-left: 504px;
-      
-       
+       right: 20px;
+      top: 20px; 
   }
 }
-@media only screen and (min-width: 1280px) {
-    .reviews-icon {
-    margin-left: 394px;
-
-  }
-}
-@media only screen and (min-width: 1440px) {
-    .reviews-icon {
-    margin-left: 474px;
-  }
-}
-
-
-
 .pr-reviews {
     max-width: 295px;
     padding-top: 20px;
-    font-family: DM Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -194,7 +139,7 @@ letter-spacing: 0.02em;
     max-width: 490px;
   }
 }
-.reviews-lili {
+.reviews-list-item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -205,17 +150,12 @@ border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
 }
 @media only screen and (max-width: 1279.98px) {
-  .reviews-lili {
+  .second {
     display: none;
   }
 }
 @media only screen and (min-width: 1280px) {
-    .reviews-lili {
+    .reviews-list-item {
         max-width: 530px;
-  }
-}
-@media only screen and (min-width: 1440px) {
-    .reviews-lili {
-        max-width: 610px;
   }
 }
