@@ -1,41 +1,52 @@
 <footer class="footer">
-  <div class="wrapper">
-    <div class="footer--container-logo">
-      <svg class="footer--logo" width="124" height="17">
-        <use href="./icons.svg#icon-logo"></use>
-      </svg>
-      <div class="footer--container-loc">
-        <h3 class="footer--loc-add">UA: +38 066 543 8912</h3>
-        <h3 class="footer--loc-add">Ukraine, Kyiv</h3>
+  <div class="container footer-block">
+    
+      <div class="address">
+        <svg class="footer-logo" width="123" height="16">
+          <use href="/img/icons.svg#icon-logo"></use>
+        </svg>
+        <address class="footer-address">
+          <ul class="address-list">
+            <li class="adress-item">
+              <a class="adress-item-link" href="tel:+380665438912"
+                >UK: +38 066 543 8912</a
+              >
+            </li>
+            <li class="adress-item">Ukraine, Kyiv</li>
+          </ul>
+        </address>
       </div>
+      <div class="socials">
+        <ul class="socials-list">
+          <li class="socials-item">Instagram</li>
+          <li class="socials-item">Facebook</li>
+          <li class="socials-item">Youtube</li>
+        </ul>
+        <ul class="socials-list">
+          <li class="socials-item">About us</li>
+          <li class="socials-item">Our courses</li>
+          <li class="socials-item">Our mentors</li>
+          <li class="socials-item">Reviews</li>
+          <li class="socials-item">contacts</li>
+        </ul>
+     
     </div>
-    <div class="footer--container-content">
-      <div class="social--container">
-        <a href="#" class="social--link">INSTAGRAM</a>
-        <a href="#" class="social--link">FACEBOOK</a>
-        <a href="#" class="social--link">YOUTUBE</a>
-      </div>
-      <div class="menu--container">
-        <a href="#" class="menu--link">ABOUT US</a>
-        <a href="#" class="menu--link">OUR COURSES</a>
-        <a href="#" class="menu--link">OUR MENTORS</a>
-        <a href="#" class="menu--link">REVIEWS</a>
-        <a href="#" class="menu--link">CONTACTS</a>
-      </div>
-    </div>
-    <form action="" class="footer--container-form">
-      <input class="footer--input" type="text" placeholder="Enter your email" />
-      <button class="btn--go">Go</button>
+    <form class="subcribe-form" name="subcribe">
+      <label class="subcribe-field"
+        ><input
+          class="subcribe-input"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+      /></label>
+      <button class="subcribe-btn" type="submit">Go</button>
     </form>
   </div>
-  <div class="wrapper--copyright">
-    <div class="footer--container-privacy">
-      <h3 class="footer--privacy-title">Privacy Policy</h3>
-      <h3 class="footer--privacy-title">Public Offering Agreement</h3>
-    </div>
-    <div class="footer--container-copyright">
-      <h3 class="footer--copyright-title">2023 Focus Frame</h3>
-      <h3 class="footer--copyright-title">© All rights reserved</h3>
-    </div>
+  <div class="container privacy">
+    <ul class="privacy-list">
+      <li class="privacy-item">Privacy Policy <p>Public Offering Agreement</p></li>
+      <li class="privacy-item">2023 Focus Frame <p>© All rights reserved</p></li>
+    </ul>
   </div>
 </footer>
