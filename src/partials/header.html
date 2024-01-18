@@ -1,34 +1,49 @@
-<header class="heder">
-  <div class="container">
-    <nav class="nav">
-      <a href="./index.html" class="logo"
-        ><svg width="127" height="20" class="logo-icon">
-          <use href="../img/icons.svg#icon-logo"></use></svg
-      ></a>
-      <button class="menu-btn" type="button" aria-label="Open menu button">
-        <svg class="menu-btn-icon" width="32" height="22">
-          <use href="../img/icons.svg#icon-nav"></use>
+<header class="header">
+  <div class="container header-container">
+    <div class="logo-nav">
+      <a class="header-logo" href="./index.html">
+        <svg
+          class="header-logo-icon-focus"
+          width="127"
+          height="20"
+          aria-label="Logo Focus.Frame"
+        >
+          <use href="/img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="header-nav-link" href="#about_us">About Us</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="header-nav-link" href="#our_courses">Our Courses</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="header-nav-link" href="#our_mentors">Our Mentors</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="header-nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="header-nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="logo-link-pic" href="#sign_up">
+        <svg width="16" height="16">
+          <use class="logo-icon-svg" href="/img/icons.svg#icon-camera"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button" aria-label="Open menu button">
+        <svg class="burger-btn-icon" width="32" height="22">
+          <use class="burger-svg" href="/img/icons.svg#icon-nav"></use>
         </svg>
       </button>
-      <ul class="list">
-        <li><a href="./index.html" class="nav-link active">Studio</a></li>
-        <li><a href="" class="nav-link">Portfolio</a></li>
-        <li><a href="" class="nav-link">Contacts</a></li>
-      </ul>
-    </nav>
-    <address class="address">
-      <ul class="list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="address-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+110001111111" class="address-link"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
-    </address>
+    </div>
+    <button class="signup-button" type="button" aria-label="Open menu button">
+      sign up
+    </button>
   </div>
 </header>
