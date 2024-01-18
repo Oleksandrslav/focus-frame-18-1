@@ -221,7 +221,7 @@
 
 @media only screen and (max-width: 766px) {
     .signup-button {
-        display: none;
+        visibility: hidden;
     }
 }
 
