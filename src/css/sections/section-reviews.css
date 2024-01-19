@@ -60,6 +60,7 @@
 @media only screen and (min-width: 1280px) {
   .reviews-list {
     display: flex;
+    justify-content: center;
     max-width: 1240px;
     gap: 20px;
   }
