@@ -112,14 +112,14 @@
 .privacy-item {
   font-size: 12px;
   line-height: 1.33;
-  min-width: 116px;
-  max-width: 147px;
+  /* min-width: 116px; */
+  /* max-width: 147px; */
 }
 
 @media only screen and (min-width: 768px) {
   .privacy-item {
-    min-width: 134px;
-    max-width: 171px;
+    /* min-width: 134px; */
+    /* max-width: 171px; */
     font-size: 14px;
     line-height: 1.29;
   }
