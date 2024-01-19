@@ -16,6 +16,12 @@
 @import url('./sections/section-reviews.css');
 @import url('./sections/section-sign-up.css');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   font-family: DM sans, sans-serif;
   font-size: 16px;
@@ -24,39 +30,37 @@
   letter-spacing: -0.32px;
 
   color: #ffffff;
-  /* background-color: #121212; */
+  background-color: #121212;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
-.container {
-  max-width: 320px;
-  padding: 0 20px;
-  margin-right: auto;
-  margin-left: auto;
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
+  .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 100px;
-  }
+.container {
+  min-width: 320px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
