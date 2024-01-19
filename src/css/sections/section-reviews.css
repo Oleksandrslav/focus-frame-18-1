@@ -45,7 +45,6 @@ color: #FFF;
 .reviews-list {
     display: flex;
     width: 100%;
-    max-width: 335px;
     border-radius: 12px;
 }
 
@@ -75,16 +74,7 @@ color: #FFF;
     position: relative;
 }
 
-.reviews-list-item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 335px;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.20);
-}
+
 
 @media only screen and (max-width: 1279.98px) {
   .second {
@@ -108,6 +98,7 @@ color: #FFF;
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    padding-bottom: 20px;
 }
 
 .reviews-stud {
