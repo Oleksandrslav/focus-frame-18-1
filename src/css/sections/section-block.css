@@ -1,18 +1,31 @@
 /*Marquee*/
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.section-marquee {
+  padding-bottom: 75px;
 }
 
 .marquee {
   overflow: hidden;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
   font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
   text-transform: uppercase;
-  background-color: #121212;
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 40px;
+    letter-spacing: -0.8px;
+    padding: 24px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 59px;
+    letter-spacing: -1.18px;
+  }
 }
 
 .marquee-inner {
@@ -22,7 +35,6 @@
 .marquee-line {
   flex-shrink: 0;
   margin: 0;
-  padding: 10px 15px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
