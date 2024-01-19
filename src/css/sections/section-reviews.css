@@ -1,6 +1,7 @@
 /*Revievs*/
  @media only screen and (min-width: 1280px) {
   .reviews  {
+   
      padding-bottom: 150px;
    }
  }
@@ -16,22 +17,6 @@ letter-spacing: 0.04em;
 color: #FFF;
 }
 
-@media screen and (min-width: 1440px) {
-  .reviews-clas {
-    max-width: 1440px;
-  }
-}
-
-.reviews-title {
-  margin-bottom: 40px;
-  font-family: DM Sans;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.04em;
-  color: #FFF;
-}
 
 @media only screen and (min-width: 768px) {
     .reviews-title  {
@@ -40,6 +25,11 @@ color: #FFF;
         line-height: 1.12;
         letter-spacing: 0.04em;
   }
+}
+@media only screen and (min-width: 1280px) {
+  .reviews-title  {
+     margin-left: 79px;
+}
 }
 
 .reviews-list {
@@ -52,14 +42,15 @@ color: #FFF;
     .reviews-list {
         max-width: 640px;
         flex-shrink: 0;
+        justify-content: center;
   }
 }
 
 @media only screen and (min-width: 1280px) {
     .reviews-list {
-        display: flex;
         max-width: 1240px ;
         gap: 20px;
+       
   }
 }
 
@@ -173,16 +164,7 @@ color: #FFF;
   }
 }
 
-.reviews-list-item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 335px;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-}
+
 
 @media only screen and (max-width: 1279.98px) {
   .second {
