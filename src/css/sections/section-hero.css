@@ -1,12 +1,15 @@
 /* ===== HERO ======= */
-.section {}
+.section {
+}
 
 @media screen and (min-width: 768px) {
-  .section {}
+  .section {
+  }
 }
 
 @media screen and (min-width: 1280px) {
-  .section {}
+  .section {
+  }
 }
 
 .hero {
@@ -85,8 +88,16 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  margin: 0 auto;
   margin-bottom: 20px;
+  max-width: 295px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    max-width: 497px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.07;
+  }
 }
 
 .hero-title span {
@@ -102,15 +113,20 @@
   margin-bottom: 40px;
   max-width: 295px;
 }
+@media only screen and (min-width: 768px) {
+   .hero-text{
+    max-width: 418px;
+  }
+}
 
 .hero-img {
-  position: absolute;
-  bottom: 0;
   right: 38px;
   max-width: 259px;
   width: 100%;
   max-height: 314px;
   object-fit: contain;
+  margin: auto;
+  margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -123,9 +139,12 @@
 
 @media screen and (min-width: 1280px) {
   .hero-img {
+    position: absolute;
+    bottom: 0;
     max-width: 397px;
     max-height: 520px;
     right: 50px;
+    margin: 0;
   }
 }
 
